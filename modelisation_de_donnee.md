@@ -58,10 +58,22 @@ le système opérant:
 
 ### La separation des donnees et des traitements
 
-La séparation des données et des traitements permet de séparé les données du système d'informations et les traitements effectués sur ces données.
+La séparation des données et des traitements permet de séparé les données du système d'information et les traitements effectués sur ces données.
 
 cette démarche se fait en 3 étapes:
 
 - L'analyse des flux: On analyse les flux d'informations entre les acteurs du système d'information et les acteurs du système opérant.
 
 - L'étude des documents interne (factures, bon de livraison, etc...)
+
+- L'étude des documents en externe (fournisseurs, clients, etc...)
+
+Les différents types d'informations:
+
+- Les infos de bases ou élémentaires : Ce sont les données de base du systèmes d'information
+
+- Les informations calculées : ce sont les données calculées à partir des données de base
+
+- Les traitements ou les fonctions : Ce sont les traitements effectués sur les données de base pour obtenir les données calculées
+
+En résumé: Vous devez identifiées les données et les traitements effectués sur ces données
