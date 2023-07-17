@@ -57,3 +57,11 @@ le système opérant:
 - il est composé de l'ensemble des acteurs qui vont **produire** les données du système d'informations
 
 ### La separation des donnees et des traitements
+
+La séparation des données et des traitements permet de séparé les données du système d'informations et les traitements effectués sur ces données.
+
+cette démarche se fait en 3 étapes:
+
+- L'analyse des flux: On analyse les flux d'informations entre les acteurs du système d'information et les acteurs du système opérant.
+
+- L'étude des documents interne (factures, bon de livraison, etc...)
