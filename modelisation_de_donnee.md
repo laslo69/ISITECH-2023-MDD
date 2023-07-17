@@ -144,10 +144,7 @@ création d'un dictionnaire de données
 
 une dépendence fonctionnelle est une relation entre deux attributs d'une tablee. Elle permet de définir une relation de dépendance entre deux attributs d'une table.
 
-![Alt text](image-14.png)
-![Alt text](image-5.png)
-![Alt text](image-6.png)
-![Alt text](image-7.png)
+
 
 le but de l'exercise est d'élaborer un MCD à partir d'un dictionnaire de données
 
@@ -176,3 +173,6 @@ Quelques règles de conception :
 - Toutes les propriétés dépendent fonctionnellement de l'identifiant
 - Le nom d'une propriété ne doit apparaitre qu'une seule fois dans le MCD : Si vous avez une entité professeur et un entité élève, vous ne pouvez pas avoir une propriété nom dans les deux entités, il faut donc renommer la propriété nom de l 'entité professeur en nomProfesseur par exemple.
 - Les propriétés issues d'un calcul ne doivent pas apparaitre ans le MCD.
+
+
+### Sujett TP/TD MCD jour 1
