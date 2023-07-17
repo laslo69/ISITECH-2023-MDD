@@ -117,3 +117,6 @@ Il s'agit de l'organisation `réelle` des données. On va utiliser le modèle ph
 Ici, on apporte les solutions techniques de stockage des données et de traitement des données.
 
 On répond à la question: **Comment** les traitements sont-ils effectués.
+
+#### Résumé: Les 4 niveaux de Merise
+
