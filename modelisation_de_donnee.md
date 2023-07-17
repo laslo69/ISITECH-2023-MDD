@@ -44,8 +44,16 @@ on transforme les processus de l'entreprise en système d'information.
 
 ### l'approche systèmique
 
-l'ensemble des acteurs qui vont **piloter** le système d'informations
+le systeme de pilotage:
+
+- Il est l'ensemble des acteurs qui vont **piloter** le système d'informations
+
+le système d'informations:
+
+- il est compose de l'ensemble des acteurs qui vont **utiliser** le système d'informations
 
 le système opérant:
 
-- Il est composé de l'ensemble des acteurs qui vont **utiliser** le système d'information
+- il est composé de l'ensemble des acteurs qui vont **produire** les données du système d'informations
+
+### La separation des donnees et des traitements
