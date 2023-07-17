@@ -44,6 +44,8 @@ on transforme les processus de l'entreprise en système d'information.
 
 ### l'approche systèmique
 
+![Alt text](image.png)
+
 le systeme de pilotage:
 
 - Il est l'ensemble des acteurs qui vont **piloter** le système d'informations
@@ -120,3 +122,57 @@ On répond à la question: **Comment** les traitements sont-ils effectués.
 
 #### Résumé: Les 4 niveaux de Merise
 
+![Alt text](image-1.png)
+
+### Des données aux dépendances fonctionnelles
+
+Pour être intégrées dans un système d'information, les données doivent être triées et organisées. On va souvent tenter de les classer par type de données : 
+
+- chaines de caractères: format texte
+- type alphanumérique: format texte
+- le type numérique: entier,float.
+- le type date (date, datetime, timestamp)
+- le logique ou boolean (true,false)
+
+
+création d'un dictionnaire de données
+
+![Alt text](image-2.png)
+
+
+### Les dépendances fonctionelles
+
+une dépendence fonctionnelle est une relation entre deux attributs d'une tablee. Elle permet de définir une relation de dépendance entre deux attributs d'une table.
+
+![Alt text](image-14.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+
+le but de l'exercise est d'élaborer un MCD à partir d'un dictionnaire de données
+
+Ici on va introduire les notions d'entité, de relation et de propriétés.
+
+Les propriétés sont les informations de bases d'un SI
+
+### Les entités sont les objets du SI
+
+![Alt text](image-8.png)
+
+### Les relations 
+
+![Alt text](image-9.png) 
+
+**Les cardinalités** : Elles permettent de définir le nombre d'occurences d'une entité par rapport à une autre entité dans le cadre d'une relation.
+
+![Alt text](image-11.png)
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+
+
+Quelques règles de conception : 
+
+- Toutes entités doit avoir un identifiant
+- Toutes les propriétés dépendent fonctionnellement de l'identifiant
+- Le nom d'une propriété ne doit apparaitre qu'une seule fois dans le MCD : Si vous avez une entité professeur et un entité élève, vous ne pouvez pas avoir une propriété nom dans les deux entités, il faut donc renommer la propriété nom de l 'entité professeur en nomProfesseur par exemple.
+- Les propriétés issues d'un calcul ne doivent pas apparaitre ans le MCD.
