@@ -112,3 +112,8 @@ On répon à la question suivantes : **Avec quoi** les traitements sont-ils effe
 
 #### Le niveau physique
 
+Il s'agit de l'organisation `réelle` des données. On va utiliser le modèle physique de données (MPD) et le modèle des traitements (MPT)
+
+Ici, on apporte les solutions techniques de stockage des données et de traitement des données.
+
+On répond à la question: **Comment** les traitements sont-ils effectués.
