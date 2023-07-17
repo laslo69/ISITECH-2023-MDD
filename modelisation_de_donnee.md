@@ -77,3 +77,38 @@ Les différents types d'informations:
 - Les traitements ou les fonctions : Ce sont les traitements effectués sur les données de base pour obtenir les données calculées
 
 En résumé: Vous devez identifiées les données et les traitements effectués sur ces données
+
+### L'approche nivelée
+
+Pour effectuer la conception d'un SI, on va utiliser une approche nivelée. Cette approche se compose de 4 niveaux:
+
+- Le niveau conceptuel
+- Le niveau organisationnel
+- Le niveau logique
+- Le niveau physique
+
+#### Le niveau conceptuel
+
+Le niveau conceptuel permet de modéliser les données de l'entreprise.
+On va utiliser le modèle conceptuel de données (MCD) pour modéliser les données de l'entreprise, et le MCT pour modéliser les traitements effectués sur ces données.
+
+#### Le niveau organisationnel
+
+Le niveau organisationnel va permettre d'intrégrer à l'analyse précédente toutes les notions de temporalité, de chronologie des opérations, de contraintes géographiques, niveau d'accès. On va utiliser le modele organisationnel des traaitements (MOT) et le modéle organisationnel des données (MOD) pour modéliser les traitements de l'entreprise.
+
+En résumé on se pose les questions suivantes à partir des données recueillis au niveau conceptuel :
+
+- **Quand** les traitements sont effectués ?
+- **Où** les traitements sont-ils effectués ?
+- Par **qui** les traitements sont effectués ?
+
+#### Le niveau logique
+
+Le niveau logique va permettre de modéliser les données de l'entreprise en utilisant le modèle logique de données (MLD) et les traitements de l'entreprise en utilisant le modèle logique des traitements (MLT)
+
+le MLD est indépendant des langages de programmations des SGBD
+
+On répon à la question suivantes : **Avec quoi** les traitements sont-ils effectués?
+
+#### Le niveau physique
+
