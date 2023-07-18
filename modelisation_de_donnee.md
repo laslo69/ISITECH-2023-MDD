@@ -138,13 +138,45 @@ Pour être intégrées dans un système d'information, les données doivent êtr
 création d'un dictionnaire de données
 
 ![Alt text](image-2.png)
+![Alt text](image-3.png)
 
-
-### Les dépendances fonctionelles
+### Les dépendances fonctionnelles
 
 une dépendence fonctionnelle est une relation entre deux attributs d'une tablee. Elle permet de définir une relation de dépendance entre deux attributs d'une table.
 
+LE role d'une dépendence fonctionelle est de permettre de définir une relation de dépendence entre deux attributs d'une table : une donnée A dépend fonctionnellement d'une donnée B lorsque la valeur de B détermine la valeur de A
 
+Pour formaliser une dépendance fonctionnelle on utilise la notation suivante :
+`Numéro adhérent (nom, prenom, code postal, ville, telephone, date adhesion, mail)`
+
+La partie gauche ( numéro adhérent) est la `source` de la dépendance fonctionnelle.
+La partie droite désigne le `but` de la dépendance.
+
+### Les dépendances fonctionnelles composées
+
+Si une dépendance fonctionnelle qui fait intervenir plus de deux  attributs, on parle de dépendance fonctionnelle composées.
+
+Exemple: Pour connaitre le temps d'un coureur sur une étape donnée , il nous faut son numéro ou son nom ainsi que le nom ou le numéro de l'étape
+
+### Les dépendances fonctionnelles élémentaires
+
+Une dépendance A -> B est élémentaire s'il n'existe pas une donnée C, sous-ensemble de A, décrivant une dépendance fonctionnelle type c -> B.
+
+Exemple:
+- RefProduit -> libelleProduit
+- NumCommande RefProduit -> QuantitéCommande
+- <strike>NumCommande RefProduit -> DesignationProduit</strike>
+
+### Dependance fonctionnelle élémentaire directe
+
+On dit que la dépendence fonctionnelle A -> B est directe s'il n'existe aucun attribut C tel que l'on puisse avoir A -> C et C -> B. En d'autre termes, cela signifie que la dépendence fonctionnelle entre A et B ne peut pas être obtenue par transitivité.
+
+exemple:
+- RefPromo -> NumApprenant
+- NumApprenant -> NomApprenant
+- RefPromo -> NomApprenant
+
+********************************************************
 
 le but de l'exercise est d'élaborer un MCD à partir d'un dictionnaire de données
 
@@ -160,10 +192,20 @@ Les propriétés sont les informations de bases d'un SI
 
 ![Alt text](image-9.png) 
 
+
+#### Les relations "porteuses"
+
+Une relation est dite porteuse si elle posséde des propriétés.
+
+
+
+#### Les relations reflexives
+
+Une relation est dite réfléxives si elle reslie une entité à elle même.
+
+
 **Les cardinalités** : Elles permettent de définir le nombre d'occurences d'une entité par rapport à une autre entité dans le cadre d'une relation.
 
-![Alt text](image-11.png)
-![Alt text](image-12.png)
 ![Alt text](image-13.png)
 
 
@@ -175,4 +217,10 @@ Quelques règles de conception :
 - Les propriétés issues d'un calcul ne doivent pas apparaitre ans le MCD.
 
 
-### Sujett TP/TD MCD jour 1
+
+### Sujet TP/TD MCD jour 1
+
+![Alt text](image-14.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
