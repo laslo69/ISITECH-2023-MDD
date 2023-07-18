@@ -188,6 +188,10 @@ Les propriétés sont les informations de bases d'un SI
 
 ![Alt text](image-8.png)
 
+QUelques définitions:
+- entités fortes: une entité qui ne dépend pas d'une autre entité pour exister.
+- entités faible: une entité qui dépend d'une autre entité pour exister.
+
 ### Les relations 
 
 ![Alt text](image-9.png) 
@@ -203,10 +207,19 @@ Une relation est dite porteuse si elle posséde des propriétés.
 
 Une relation est dite réfléxives si elle reslie une entité à elle même.
 
+### Les contraintes d'intégrité fonctionnelle (CIF)
+
+Définition: Une CIF est définie par le fait qu'une des entités de l'association est complétement déterminée par la connaissance d'une ou de plusieurs entités participant à l'association.
+
+Exemple:
+Une salle peut contenir 0 ou plusieurs ordinateurs.Un ordinateur exist dans une et une seule salle.
+Dans ce type de relation, une CIF exsite si on a une cardinalité 1,1 
+
 
 **Les cardinalités** : Elles permettent de définir le nombre d'occurences d'une entité par rapport à une autre entité dans le cadre d'une relation.
 
 ![Alt text](image-13.png)
+
 
 
 Quelques règles de conception : 
