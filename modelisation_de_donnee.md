@@ -277,6 +277,9 @@ ajout image 26
 ### Régle de passagege du MCD au MLD
 
 
+#### Petit exemple pratique
+
+ajout image 27
 
 
 ### Sujet TP/TD MCD jour 1
