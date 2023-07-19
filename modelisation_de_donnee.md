@@ -207,6 +207,12 @@ Une relation est dite porteuse si elle posséde des propriétés.
 
 Une relation est dite réfléxives si elle reslie une entité à elle même.
 
+
+**Les cardinalités** : Elles permettent de définir le nombre d'occurences d'une entité par rapport à une autre entité dans le cadre d'une relation.
+
+![Alt text](image-13.png)
+
+
 ### Les contraintes d'intégrité fonctionnelle (CIF)
 
 Définition: Une CIF est définie par le fait qu'une des entités de l'association est complétement déterminée par la connaissance d'une ou de plusieurs entités participant à l'association.
@@ -216,18 +222,60 @@ Une salle peut contenir 0 ou plusieurs ordinateurs.Un ordinateur exist dans une 
 Dans ce type de relation, une CIF exsite si on a une cardinalité 1,1 
 
 
-**Les cardinalités** : Elles permettent de définir le nombre d'occurences d'une entité par rapport à une autre entité dans le cadre d'une relation.
-
-![Alt text](image-13.png)
-
-
-
 Quelques règles de conception : 
 
 - Toutes entités doit avoir un identifiant
 - Toutes les propriétés dépendent fonctionnellement de l'identifiant
 - Le nom d'une propriété ne doit apparaitre qu'une seule fois dans le MCD : Si vous avez une entité professeur et un entité élève, vous ne pouvez pas avoir une propriété nom dans les deux entités, il faut donc renommer la propriété nom de l 'entité professeur en nomProfesseur par exemple.
 - Les propriétés issues d'un calcul ne doivent pas apparaitre ans le MCD.
+
+### Modèles logiques de données
+
+Le MLD est la suite du processus Merise, on se rapproche un peu plus de la base de données du MCD suivant.
+
+#### cas simple
+
+Partons du MCD suivant:
+
+ajout image 19
+
+Nous arrivons au MLD suivant
+
+ajout image 20
+
+L'`entité` qui posséde la cardinalité 1,1 ou 0,1 absorde l'indentifiant de l'entité la plus forte (0,n ou 1,n).
+Cet identifiant devient alors une clé étrangére.
+
+
+
+#### cas (0,n),(0,n) ou (1,n),(1,n)
+
+Partons du MCD suivant
+
+ajout image 21
+
+Dans le cas ou la `cardinalité max` est n des deux cotés, on crée une entité intermédiaire qui va contenir les deux clés étrangéres des deux entités.
+
+ajout image 22
+
+Continuons avec le MCD suivant:
+
+ajout image 23
+
+On obtient le MLD suivant en suivant la même logique
+
+ajout image 24
+
+#### cas d'une relation reflexive
+
+Partons du MCD suivant :
+
+ajout image 25
+
+ajout image 26
+
+### Régle de passagege du MCD au MLD
+
 
 
 
