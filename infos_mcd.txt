@@ -1,9 +1,0 @@
-gérer infos employé
-prise de commande savoir date et service midi ou soir
-quelle table commande et quel serveur l'a pris
-carte propose ensemble plat , menus sont assemblages a la carte
-carte des vins , connaitre millesim, date, prix.
-pour chaque cru connaitre infos du viticulteur
-chaque bouteille doit avoir etiquette avec le prix et date achat
-boissons géré seulement par nom et prix
- 
