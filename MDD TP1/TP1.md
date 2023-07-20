@@ -1,5 +1,8 @@
+# MCD
 ![Alt text](<MCD TP1.png>)
+# MLD
 ![Alt text](<MLD TP1.png>)
+# MPD
 ![Alt text](<MPD TP1.png>)
 
 ```sql
