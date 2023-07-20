@@ -1,6 +1,6 @@
-![Alt text](<MCD TP1-1.png>)
-![Alt text](<MLD TP1-1.png>)
-![Alt text](<MPD TP1-1.png>)
+![Alt text](<MCD TP1.png>)
+![Alt text](<MLD TP1.png>)
+![Alt text](<MPD TP1.png>)
 
 ```sql
 DROP TABLE IF EXISTS famille ; 
