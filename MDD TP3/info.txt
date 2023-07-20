@@ -1,0 +1,16 @@
+-coordonne client
+nom
+prenom
+adresse
+ville
+cp
+materiel client
+
+-prix selon type intervention
+type_intervention
+prix
+temps
+
+-composant neuf
+type
+prix
