@@ -1,0 +1,52 @@
+gestion réservation
+	id_chambre
+	reserv_debut
+	reserv_fin
+	dispo
+	confirm_reserv
+
+gestion client
+	id_client
+	nom
+	prenom
+	adresse
+	cp
+	ville
+	historique sejour
+	proposer offre personnaliser
+
+
+gestion chambre
+	id
+	dispo
+	tarif
+	entretien
+
+gestion service
+	id
+	type
+	prix
+
+gestion personnel
+	id_personnel
+	horaire_debut
+	horaire_fin
+	conges_debut
+	conges_fin
+	formations
+	performances
+
+
+gestion stock
+	stock art. utilise par hotel ( art. toilette, nettoyage etc....)
+	id_art
+	nom_art
+	quantite
+
+gestion financiere
+	enregistrer transaction
+	gerer facture
+	rapport financier
+
+analyse/rapport
+	fournir outil analyse ( perf hotel, satisfaction....)
