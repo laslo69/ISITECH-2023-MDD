@@ -38,15 +38,16 @@ gestion personnel
 
 
 gestion stock
-	stock art. utilise par hotel ( art. toilette, nettoyage etc....)
 	id_art
 	nom_art
 	quantite
 
 gestion financiere
-	enregistrer transaction
-	gerer facture
-	rapport financier
+
+	id
+	transac
+	facture
+	rapport
 
 analyse/rapport
 	fournir outil analyse ( perf hotel, satisfaction....)
