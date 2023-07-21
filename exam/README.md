@@ -1,15 +1,18 @@
+*****************
 # NB:
  - Le dictionnaire n'est pas dans l'ordre dût à un ajout tardif.
 
- - Lors de la finalisation du markdown , j'ai constaté une inversion des images MLD et MPD
+ - Lors de la finalisation du markdown , j'ai constaté une inversion des images MLD et MPD, ne pas en tenir compte.
 
- - Un fichier SQL est présent dans le dossier, syntaxe MySQL
+ - Un fichier SQL est présent dans le dossier, syntaxe MySQL.
 
- - Un fichier texte est présent dans le dossier, pour condenser les infos avant de les traiter
+ - Un fichier texte est présent dans le dossier, pour condenser les infos avant de les traiter.
+
+ - Le fichier .asi est présent dans le dossier.
 
  - Explication dans le chapitre MCD de la démarche pensé de mon côté.
 
-
+********************
 
 
 # Dictionnaire
